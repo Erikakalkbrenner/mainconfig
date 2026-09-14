@@ -1546,32 +1546,35 @@ VEHICLE_CERT_VEHICLES = {
             entityname = "lvs_walker_atap",
             description = "Anti tank Two Legged Walker, Primarily used in tank busting Operations",
             type = "Heavy Vehicle"
+			offset = { forward = 100, right = 0, up = 10 }
         },
         {
             name = "AT-OT",
             entityname = "lvs_walker_atot",
             description = "Heavily reinforced Walker for transport troops",
             type = "Heavy Vehicle"
+			offset = { forward = 100, right = 0, up = 10 }
         },
         {
             name = "IFT-X",
             entityname = "lvs_fakehover_iftx",
             description = "A Standard Republic Medium Battle Tank",
             type = "Heavy Vehicle"
+			offset = { forward = 100, right = 0, up = 100 }
         },
         {
             name = "2H Transport Repulsor Truck With Cannon",
             entityname = "lvs_ihr_base_rep",
             description = "Heavy Hover Truck issued with a heavy cannon",
             type = "Heavy Vehicle",
-            offset = { forward = 200, right = 0, up = 100 }
+            offset = { forward = 100, right = 0, up = 100 }
         },
         {
             name = "2H Transport Repulsor Truck With Grenade Launcher",
             entityname = "lvs_ihr_gl_rep",
             description = "Heavy Hover Truck issued with a grenade launcher",
             type = "Heavy Vehicle",
-            offset = { forward = 200, right = 0, up = 100 }
+            offset = { forward = 100, right = 0, up = 100 }
         },
     },
 
@@ -1605,19 +1608,19 @@ VEHICLE_CERT_VEHICLES = {
             offset = { forward = 100, right = 0, up = 100 }
         },
         {
-            name = "AT-RT Walker",
+            name = "AT-RT Walker [ Clones Only ]",
             entityname = "lvs_walker_atrt_standart",
             description = "Standard Two legged Light armored Anti infantry Walker varient issued with a dual blaster",
             type = "Small Vehicle"
         },
         {
-            name = "AT-RT ( Rotary )",
+            name = "AT-RT ( Rotary )[ Clones Only ]",
             entityname = "lvs_walker_atrt_rotary",
             description = "A Modified varient issued with a Rotary Z6",
             type = "Small Vehicle"
         },
         {
-            name = "AT-RT ( Flamethrower )",
+            name = "AT-RT ( Flamethrower )[ Clones Only ]",
             entityname = "lvs_walker_atrt_flamethrower",
             description = "A Modified varient issued with a flamethrower Speeder",
             type = "Small Vehicle"
@@ -1630,14 +1633,14 @@ VEHICLE_CERT_VEHICLES = {
             entityname = "lvs_ihr_tt_rep",
             description = "Transports up to 8 Additional Soldiers",
             type = "Heavy Vehicle",
-            offset = { forward = 200, right = 0, up = 100 }
+            offset = { forward = 100, right = 0, up = 100 }
         },
         {
             name = "2H Transport MG Truck",
             entityname = "lvs_ihr_mg_rep",
             description = "Similar to the previous but with a top machinegun",
             type = "Heavy Vehicle",
-            offset = { forward = 200, right = 0, up = 100 }
+            offset = { forward = 100, right = 0, up = 100 }
         },
         {
             name = "Forklift Loader",
@@ -1651,7 +1654,7 @@ VEHICLE_CERT_VEHICLES = {
             cloneOnly = true,
             description = "Armored Personel Carrier issued with a light blaster cannon, can carry 4 additional passengers",
             type = "Heavy Vehicle",
-            offset = { forward = 200, right = 0, up = 100 }
+            offset = { forward = 100, right = 0, up = 100 }
         },
         {
             name = "2H Radar Truck [ Navy Only ]",
@@ -1659,7 +1662,7 @@ VEHICLE_CERT_VEHICLES = {
             divisions = {"Navy"},
             description = "issued with a long range radio used to identify enemy vehicles",
             type = "Heavy Vehicle",
-            offset = { forward = 200, right = 0, up = 100 }
+            offset = { forward = 100, right = 0, up = 100 }
         },
     },
 
@@ -1669,14 +1672,14 @@ VEHICLE_CERT_VEHICLES = {
             entityname = "lvs_repulsorlift_gunship",
             description = "Standard Transport Gunship",
             type = "Heavy Vehicle",
-            offset = { forward = 240, right = 0, up = 100 }
+            offset = { forward = 140, right = 0, up = 100 }
         },
         {
             name = "LAAT/g Gunship",
             entityname = "lvs_repulsorlift_gunship_heavy",
             description = "Heavy Gunship Hybrid for bombing runs and CAS",
             type = "Heavy Vehicle",
-            offset = { forward = 240, right = 0, up = 100 }
+            offset = { forward = 140, right = 0, up = 100 }
         },
         {
             name = "LAAT/c Cargo Dropship [Navy Only]",
@@ -1684,7 +1687,7 @@ VEHICLE_CERT_VEHICLES = {
             divisions = {"Navy"},
             description = "Vehicles Transport Gunship",
             type = "Heavy Vehicle",
-            offset = { forward = 240, right = 0, up = 100 }
+            offset = { forward = 140, right = 0, up = 100 }
         },
         {
             name = "Rho-Class Transport Shuttle [Navy Only]",
@@ -1700,7 +1703,7 @@ VEHICLE_CERT_VEHICLES = {
             divisions = {"Navy"},
             description = "Standard Fighter Spacecraft",
             type = "Heavy Vehicle",
-            offset = { forward = 200, right = 0, up = 100 }
+            offset = { forward = 100, right = 0, up = 100 }
         },
         {
             name = "V-Wing [Navy Only]",
@@ -1708,7 +1711,7 @@ VEHICLE_CERT_VEHICLES = {
             divisions = {"Navy"},
             description = "Interecptor Spacefraft",
             type = "Heavy Vehicle",
-            offset = { forward = 200, right = 0, up = 100 }
+            offset = { forward = 100, right = 0, up = 100 }
         },
     },
 
